@@ -1,0 +1,37 @@
+.about 
+  display: flex 
+  & .img 
+    width: 50%
+    & img 
+      width: 100%
+  & .block 
+    width: 50%
+    background: #ffc155
+    display: flex
+    & .content 
+      padding-left: 80px 
+      padding-right: 265px 
+      color: #ffffff
+      & h5 
+        +gotham 
+        text-transform: uppercase
+        font-size: 30px 
+        letter-spacing: -.75px
+      & p 
+        margin-top: 20px
+        line-height: 1.85  
+      & .btn 
+        margin-top: 30px 
+        & button 
+          text-transform: uppercase
+          color: #ffffff
+          width: 145px 
+          height: 45px 
+          border-radius: 2px 
+          border: 1px solid #e7ad48
+          +lato_reg 
+          font-size: 14px 
+          transition: .3s linear 
+          &:hover
+            background: #ffffff
+            color: #ffc155

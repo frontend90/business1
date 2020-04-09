@@ -1,0 +1,74 @@
+.work 
+  padding: 150px 0 
+  & .title 
+    text-align: center
+    color: #394b50 
+    & h5 
+      +gotham 
+      text-transform: uppercase
+      font-size: 30px 
+      letter-spacing: -0.75px 
+    & p
+      +lato_light 
+      font-size: 18px 
+  & .work-wrap 
+    margin-top: 100px 
+    display: flex 
+    justify-content: space-between
+    & .block 
+      text-align: center
+      width: 215px 
+      & .icon1 
+        &::before
+          content: ''
+          position: absolute
+          background: url(../img/work/1.png) no-repeat 
+          top: -35px
+          left: 100%
+          width: 100%
+          height: 100%
+      & .icon2
+        &::before
+          content: ''
+          position: absolute
+          background: url(../img/work/2.png) no-repeat 
+          top: calc(100% + 10px)
+          left: 100%
+          width: 100%
+          height: 100%
+      & .icon 
+        position: relative
+        & .fas 
+          +solid 
+          font-size: 72px 
+          -webkit-text-stroke: 2px #709dca 
+          color: #709dca 
+      & .content 
+        margin-top: 100px 
+        & h6 
+          text-transform: uppercase
+          +lato_bold 
+          font-size: 20px 
+          color: #394b50 
+        & p 
+          margin-top: 20px 
+          line-height: 1.69 
+  & .btn 
+    text-align: center
+    margin-top: 90px 
+    & button 
+      text-transform: uppercase
+      background: #ffbb42 
+      color: #ffffff
+      width: 165px 
+      height: 45px 
+      border-radius: 2px 
+      +lato_reg 
+      font-size: 14px 
+      transition: .3s linear 
+      &:hover
+        opacity: .7
+
+
+
+

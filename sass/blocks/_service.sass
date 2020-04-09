@@ -1,0 +1,42 @@
+.service 
+  padding-bottom: 75px 
+  & .title 
+    text-align: center
+    color: #394b50
+    & h5 
+      +gotham 
+      font-size: 30px 
+      letter-spacing: -.75px
+      text-transform: uppercase
+    & p 
+      font-size: 16px 
+  & .service-wrap 
+    margin-top: 90px 
+    display: flex 
+    justify-content: space-between
+    & .block 
+      width: 47%
+      & .box 
+        display: flex 
+        margin-bottom: 75px 
+        &:hover .icon .fas 
+          color: #f6772c
+          -webkit-text-stroke: 2px #f6772c
+        & .icon 
+          & .fas 
+            +solid 
+            font-size: 50px
+            width: 50px  
+            -webkit-text-stroke: 2px #709cda 
+            color: #709cda 
+            transition: 0.3s linear 
+        & .content 
+          margin-left: 30px 
+          & h6 
+            +lato_bold 
+            text-transform: uppercase
+            font-size: 16px 
+            color: #394b50
+          & p 
+            margin-top: 10px 
+            line-height: 1.69 
