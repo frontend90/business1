@@ -216,7 +216,8 @@ body {
 }
 
 .header .title .title-content .form form .btn button:hover {
-  opacity: .8;
+  color: #ffbb42;
+  background: #ffffff;
 }
 
 .header .header-slider {
@@ -656,6 +657,373 @@ body {
 }
 
 .work .btn button:hover {
-  opacity: .7;
+  background: #ffffff;
+  color: #ffbb42;
+  -webkit-box-shadow: inset 0 0 5px #ffbb42;
+          box-shadow: inset 0 0 5px #ffbb42;
+}
+
+.clients {
+  background: #ffc155;
+  padding: 140px 0 140px;
+}
+
+.clients .title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.clients .title h5 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'Gotham-Black';
+  letter-spacing: -.75px;
+}
+
+.clients .title p {
+  font-family: 'OpenSans-Regular';
+  font-size: 16px;
+}
+
+.clients .clients-wrap {
+  margin-top: 60px;
+}
+
+.clients .clients-wrap .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.clients .clients-wrap .block .card {
+  background: #ffffff;
+  border-radius: 2px;
+  width: 48.5%;
+  padding: 40px 40px 50px 30px;
+}
+
+.clients .clients-wrap .block .card .card-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clients .clients-wrap .block .card .card-wrap .content {
+  margin-left: 15px;
+}
+
+.clients .clients-wrap .block .card .card-wrap .content .text {
+  font-family: 'OpenSans-Regular';
+  line-height: 1.69;
+  position: relative;
+  padding-left: 15px;
+}
+
+.clients .clients-wrap .block .card .card-wrap .content .text span:first-of-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.clients .clients-wrap .block .card .card-wrap .content .text span:last-of-type {
+  margin-left: 15px;
+}
+
+.clients .clients-wrap .block .card .card-wrap .content .author {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #99a9ae;
+  margin-left: 15px;
+}
+
+.clients .clients-wrap .block .card .card-wrap .content .author span {
+  color: #f6772c;
+}
+
+.newsletter {
+  padding-top: 150px;
+}
+
+.newsletter .title {
+  text-align: center;
+}
+
+.newsletter .title h5 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'Gotham-Black';
+  letter-spacing: -.75px;
+  color: #394b50;
+}
+
+.newsletter .title p {
+  font-family: 'OpenSans-Light';
+  font-size: 16px;
+  color: #394b50;
+}
+
+.newsletter .form {
+  margin-top: 35px;
+}
+
+.newsletter .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.newsletter .form form .input {
+  width: 300px;
+  height: 50px;
+  position: relative;
+}
+
+.newsletter .form form .input input {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+  height: 100%;
+  padding-left: 45px;
+  font-family: 'OpenSans-Regular';
+  color: #a9a9a9;
+}
+
+.newsletter .form form .input input::-webkit-input-placeholder {
+  color: #a9a9a9;
+}
+
+.newsletter .form form .input input:-ms-input-placeholder {
+  color: #a9a9a9;
+}
+
+.newsletter .form form .input input::-ms-input-placeholder {
+  color: #a9a9a9;
+}
+
+.newsletter .form form .input input::placeholder {
+  color: #a9a9a9;
+}
+
+.newsletter .form form .input1::before {
+  content: '';
+  position: absolute;
+  font-family: 'fa-solid-900';
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 15px;
+  font-size: 16px;
+  color: #6e6e6e;
+}
+
+.newsletter .form form .input2::before {
+  content: '';
+  position: absolute;
+  font-family: 'fa-solid-900';
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 15px;
+  font-size: 16px;
+  color: #6e6e6e;
+}
+
+.newsletter .form form .btn button {
+  text-transform: uppercase;
+  background: #ffbb42;
+  height: 50px;
+  width: 220px;
+  color: #ffffff;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.newsletter .form form .btn button:hover {
+  background: #ffffff;
+  color: #ffbb42;
+  -webkit-box-shadow: inset 0 0 5px #ffbb42;
+          box-shadow: inset 0 0 5px #ffbb42;
+}
+
+.newsletter .newsletter-content {
+  padding-top: 90px;
+  padding-bottom: 220px;
+  background: url(../img/newsletter/bg.png) no-repeat;
+  background-position: center;
+  border-bottom: 1px solid #e3e7ec;
+}
+
+.newsletter .newsletter-content .newsletter-address {
+  text-align: center;
+  padding: 60px 0 85px;
+  margin: auto;
+  background: #394b50;
+  border-radius: 50%;
+  width: 280px;
+  height: 290px;
+  position: relative;
+}
+
+.newsletter .newsletter-content .newsletter-address::before, .newsletter .newsletter-content .newsletter-address::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -16px;
+  border: 6px solid transparent;
+  border-top: 10px solid #394b50;
+}
+
+.newsletter .newsletter-content .newsletter-address::after {
+  border-top: 10px solid #394b50;
+}
+
+.newsletter .newsletter-content .newsletter-address h6 {
+  text-transform: uppercase;
+  font-family: 'Lato-Bold';
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.newsletter .newsletter-content .newsletter-address p {
+  font-family: 'OpenSans-Regular';
+  color: #aeb7ba;
+  line-height: 1.85;
+}
+
+.newsletter .newsletter-content .newsletter-address .phone a {
+  color: #aeb7ba;
+}
+
+.newsletter .newsletter-content .newsletter-address .phone a:hover {
+  text-decoration: underline;
+}
+
+.newsletter .newsletter-content .newsletter-address .email a {
+  color: #ffbb42;
+}
+
+.newsletter .newsletter-content .newsletter-address .email a:hover {
+  text-decoration: underline;
+}
+
+.newsletter .newsletter-content .newsletter-logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact {
+  padding: 65px 0 55px;
+}
+
+.contact .contact-menu {
+  text-align: center;
+}
+
+.contact .contact-menu a {
+  text-transform: uppercase;
+  font-family: 'Lato-Regular';
+  color: #394b50;
+  margin-left: 25px;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.contact .contact-menu a:hover {
+  color: #ffbb42;
+}
+
+.contact .contact-menu a:first-of-type {
+  margin-left: 0;
+}
+
+.contact .contact-phone {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.contact .contact-phone a {
+  font-family: 'Lato-Regular';
+  font-size: 22px;
+  color: #394b50;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.contact .contact-phone a:hover {
+  color: #ffbb42;
+}
+
+.contact .contact-phone a:hover .fas {
+  color: #394b50;
+}
+
+.contact .contact-phone a .fas {
+  font-family: 'fa-solid-900';
+  font-size: 20px;
+  padding-right: 10px;
+  color: #394b50;
+}
+
+.contact .contact-social {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact .contact-social a {
+  margin-left: 15px;
+}
+
+.contact .contact-social a:first-of-type {
+  margin-left: 0;
+}
+
+.contact .contact-social a .fab {
+  font-family: 'fa-brands-400';
+  font-size: 18px;
+  color: #709dca;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.contact .contact-social a .fab:hover {
+  color: #ffbb42;
+}
+
+.footer {
+  padding: 15px 0;
+  background: #709dca;
+}
+
+.footer p {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'OpenSans-Regular';
+}
+
+.footer p a {
+  color: #ffffff;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
